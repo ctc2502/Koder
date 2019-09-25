@@ -13,7 +13,7 @@ void draw() {
   background(55);
   fill(105);
   stroke(250);
-  rect(50,50,xyrect,xyrect);
+  rect(100,100,xyrect,xyrect);
   rect(circleX, xyrect/2, 32, 32);
   
   xyrect = xyrect - 1;
