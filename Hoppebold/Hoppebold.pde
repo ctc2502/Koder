@@ -12,13 +12,7 @@ void setup() {
 }
 
 void draw() {
-  clear();
   background(55);
-  fill(105);
-  stroke(254);
-  rect(0,0,xrect,ybounce);
-  fill(256);
-  ellipse (xyspeedC, xyspeedC, 32, 32);
   
   xrect = xrect - xyskrump;
   yrect = yrect - xyskrump;
@@ -42,4 +36,12 @@ if(xyspeedC+16>xbounce) {
   xyspeed*=-1; xyspeedC = 0 -16; }  
    
    xbounce = xbounce - xyskrump;
+   
+   
+   
+  fill(105);
+  stroke(254);
+  rect(0,0,xrect,ybounce);
+  fill(256);
+  ellipse (xyspeedC, xyspeedC, 32, 32);
 }
