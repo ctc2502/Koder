@@ -75,7 +75,7 @@ class Flue{
     positionY+ynusted<0){
       positionX += xnusted;
       positionY += ynusted;
-      vinkel += PI;
+      vinkel *= PI;
       distanceFlyttet = 0;
     }
   
